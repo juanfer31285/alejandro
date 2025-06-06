@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envíos Rápidos Colombia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #004aad;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #003580;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://cdn.pixabay.com/photo/2016/11/29/04/17/delivery-1867277_960_720.jpg') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 32px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .services, .contact, .tracking {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #004aad;
+    }
+    footer {
+      background-color: #003580;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .button {
+      background-color: #004aad;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Envíos Rápidos Colombia</h1>
+    <p>Tu aliado confiable para envíos nacionales</p>
+  </header>
+  <nav>
+    <a href="#services">Servicios</a>
+    <a href="#tracking">Rastreo</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+  <div class="hero">
+    ¡Entregamos con velocidad y confianza!
+  </div>
+  <div class="container">
+    <section class="services" id="services">
+      <h2>📦 Nuestros Servicios</h2>
+      <ul>
+        <li>Envíos express en 24 horas</li>
+        <li>Logística empresarial</li>
+        <li>Seguimiento en tiempo real</li>
+        <li>Entrega puerta a puerta</li>
+        <li>Envíos desde y hacia cualquier ciudad de Colombia</li>
+      </ul>
+    </section>
+    <section class="tracking" id="tracking">
+      <h2>🔍 Rastrea tu Envío</h2>
+      <form>
+        <label for="codigo">Ingresa tu número de guía:</label>
+        <input type="text" id="codigo" name="codigo" placeholder="Ej: 1234567890">
+        <a href="#" class="button">Rastrear</a>
+      </form>
+    </section>
+    <section class="contact" id="contact">
+      <h2>📞 Contáctanos</h2>
+      <p>¿Tienes dudas? ¡Escríbenos!</p>
+      <form>
+        <input type="text" placeholder="Tu nombre">
+        <input type="email" placeholder="Tu correo">
+        <textarea rows="5" placeholder="Mensaje..."></textarea>
+        <a href="#" class="button">Enviar</a>
+      </form>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 Envíos Rápidos Colombia. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
